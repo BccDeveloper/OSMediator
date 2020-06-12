@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name        = "OSMediator"
   s.version     = "1.0.0"
   s.summary     = "OSMediator github"
-  s.homepage    = "https://github.com/BccDeveloper/OSMediatorSpecs"
+  s.homepage    = "https://github.com/BccDeveloper/OSMediator"
   s.license     = { :type => "MIT" }
   s.authors     = { "johnskyer" => "johnskyer@126.com"}
 
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.watchos.deployment_target = "3.0"
   s.tvos.deployment_target = "9.0"
-  s.source   = { :git => "https://github.com/BccDeveloper/OSMediatorSpecs.git", :tag => s.version }
+  s.source   = { :git => "https://github.com/BccDeveloper/OSMediator.git", :tag => s.version }
   s.source_files = "OSMediator/*.swift"
 end
